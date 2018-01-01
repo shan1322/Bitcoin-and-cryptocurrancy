@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=UTXOPool
+comment1.params=
+comment1.target=UTXOPool()
+comment1.text=Creates\ a\ new\ empty\ UTXOPool
+comment2.params=uPool
+comment2.target=UTXOPool(UTXOPool)
+comment2.text=Creates\ a\ new\ UTXOPool\ that\ is\ a\ copy\ of\ {@code\ uPool}
+comment3.params=utxo\ txOut
+comment3.target=void\ addUTXO(UTXO,\ Transaction.Output)
+comment3.text=Adds\ a\ mapping\ from\ UTXO\ {@code\ utxo}\ to\ transaction\ output\ @code{txOut}\ to\ the\ pool
+comment4.params=utxo
+comment4.target=void\ removeUTXO(UTXO)
+comment4.text=Removes\ the\ UTXO\ {@code\ utxo}\ from\ the\ pool
+comment5.params=ut
+comment5.target=Transaction.Output\ getTxOutput(UTXO)
+comment5.text=\r\n\ @return\ the\ transaction\ output\ corresponding\ to\ UTXO\ {@code\ utxo},\ or\ null\ if\ {@code\ utxo}\ is\r\n\ \ \ \ \ \ \ \ \ not\ in\ the\ pool.\r\n
+comment6.params=utxo
+comment6.target=boolean\ contains(UTXO)
+comment6.text=@return\ true\ if\ UTXO\ {@code\ utxo}\ is\ in\ the\ pool\ and\ false\ otherwise
+comment7.params=
+comment7.target=java.util.ArrayList\ getAllUTXO()
+comment7.text=Returns\ an\ {@code\ ArrayList}\ of\ all\ UTXOs\ in\ the\ pool
+numComments=8

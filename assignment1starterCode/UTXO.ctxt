@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=UTXO
+comment1.params=txHash\ index
+comment1.target=UTXO(byte[],\ int)
+comment1.text=\r\n\ Creates\ a\ new\ UTXO\ corresponding\ to\ the\ output\ with\ index\ <index>\ in\ the\ transaction\ whose\r\n\ hash\ is\ {@code\ txHash}\r\n
+comment2.params=
+comment2.target=byte[]\ getTxHash()
+comment2.text=@return\ the\ transaction\ hash\ of\ this\ UTXO
+comment3.params=
+comment3.target=int\ getIndex()
+comment3.text=@return\ the\ index\ of\ this\ UTXO
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ Compares\ this\ UTXO\ to\ the\ one\ specified\ by\ {@code\ other},\ considering\ them\ equal\ if\ they\ have\r\n\ {@code\ txHash}\ arrays\ with\ equal\ contents\ and\ equal\ {@code\ index}\ values\r\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\r\n\ Simple\ implementation\ of\ a\ UTXO\ hashCode\ that\ respects\ equality\ of\ UTXOs\ //\ (i.e.\r\n\ utxo1.equals(utxo2)\ \=>\ utxo1.hashCode()\ \=\=\ utxo2.hashCode())\r\n
+comment6.params=utxo
+comment6.target=int\ compareTo(UTXO)
+comment6.text=Compares\ this\ UTXO\ to\ the\ one\ specified\ by\ {@code\ utxo}
+numComments=7

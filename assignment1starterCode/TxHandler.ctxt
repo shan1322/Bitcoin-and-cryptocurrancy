@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TxHandler
+comment1.params=utxoPool
+comment1.target=TxHandler(UTXOPool)
+comment1.text=\r\n\ Creates\ a\ public\ ledger\ whose\ current\ UTXOPool\ (collection\ of\ unspent\ transaction\ outputs)\ is\r\n\ {@code\ utxoPool}.\ This\ should\ make\ a\ copy\ of\ utxoPool\ by\ using\ the\ UTXOPool(UTXOPool\ uPool)\r\n\ constructor.\r\n
+comment2.params=tx
+comment2.target=boolean\ isValidTx(Transaction)
+comment2.text=\r\n\ @return\ true\ if\:\r\n\ (1)\ all\ outputs\ claimed\ by\ {@code\ tx}\ are\ in\ the\ current\ UTXO\ pool,\r\n\ (2)\ the\ signatures\ on\ each\ input\ of\ {@code\ tx}\ are\ valid,\r\n\ (3)\ no\ UTXO\ is\ claimed\ multiple\ times\ by\ {@code\ tx},\r\n\ (4)\ all\ of\ {@code\ tx}s\ output\ values\ are\ non-negative,\ and\r\n\ (5)\ the\ sum\ of\ {@code\ tx}s\ input\ values\ is\ greater\ than\ or\ equal\ to\ the\ sum\ of\ its\ output\r\n\ values;\ and\ false\ otherwise.\r\n
+comment3.params=possibleTxs
+comment3.target=Transaction[]\ handleTxs(Transaction[])
+comment3.text=\r\n\ Handles\ each\ epoch\ by\ receiving\ an\ unordered\ array\ of\ proposed\ transactions,\ checking\ each\r\n\ transaction\ for\ correctness,\ returning\ a\ mutually\ valid\ array\ of\ accepted\ transactions,\ and\r\n\ updating\ the\ current\ UTXO\ pool\ as\ appropriate.\r\n
+numComments=4
